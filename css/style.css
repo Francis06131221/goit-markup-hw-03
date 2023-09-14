@@ -80,7 +80,9 @@
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
-    text-decoration: underline;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #404BBF;
+    border-radius: 2px;
 }
 
 .contacts {
@@ -118,7 +120,6 @@
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
-    text-decoration: underline;
 }
 
 /* end of top line */
