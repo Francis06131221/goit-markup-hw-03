@@ -337,18 +337,10 @@ h1 {
 /* Portfolio Styling */
 /* Start of Filter buttons */
 .filters {
-    /* margin: 108px 427px 72px 427px; */
-    margin-top: 108px;
-    margin-left: 427px;
-    margin-bottom: 72px;
+   padding-top: 96px;
+    text-align: center;
 }
 
-.filters-list {
-    list-style: none;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
-}
 
 .filter-btn {
     text-decoration: none;
@@ -397,31 +389,58 @@ h1 {
 /* End of Filter buttons */
 /* ------------------------------------------------------------------------------------------------------- */
 .project-list {
-    margin-left: 156px;
-    margin-bottom: 120px;
-    list-style: none;
+    display: block;
 }
 
 .row {
-    margin-top: 48px;
+    padding-top: 72px;
+    justify-content: center;
     display: flex;
-    justify-content: left;
     align-items: center;
-    width: 1128px;
-    height: 420px;
     flex-shrink: 0;
     gap: 24px;
 }
-
+.row2 {
+    padding-top: 48px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 24px;
+}
+.row3 {
+    padding-top: 48px;
+    padding-bottom: 120px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 24px;
+}
+.row-left {
+    padding-top: 72px;
+    padding-bottom: 1056px;
+    justify-content: left;
+    display: flex;
+    flex-shrink: 0;
+    gap: 24px;
+}
+.row-center {
+    padding-top: 72px;
+    padding-bottom: 1056px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 24px;
+}
 .project-card {
     border: 1px solid var(--CORNFLOWER);
     background: var(--WHITE);
 }
 
 .card-content-proj {
-    padding: 0px 16px 32px 16px;
-    width: 328px;
-    height: 56px;
+    padding: 32px 16px 32px 16px;
 }
 
 .project-header {
@@ -437,6 +456,8 @@ h1 {
 }
 
 .project-filter {
+    margin: 0 auto;
+    padding-top: 8px;
     color: var(--SLATE);
     /* Body */
     font-family: Roboto;
